@@ -1,0 +1,56 @@
+body{
+    background:url(../img/resetbg.jpg);
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-size:cover;
+
+}
+
+.container{
+    width:660px;
+    background-color:#ffad99;
+    margin:30% auto;
+
+}
+
+.container img{
+    margin: 0% 39%;
+    display: block;
+    width:20%;
+    height:20%;
+    padding: 10px;
+       
+}
+
+.container h2 {
+    font-family: 'Arimo', sans-serif;
+    text-align: center;
+
+} 
+
+.form-control-email{
+   width:90%;
+   border:inset;
+   border-radius:10px;
+   margin:5px 10px;
+   padding:10px; 
+   background-color:whitesmoke;
+   color: black;
+   font-family: 'Arimo', sans-serif;
+   font-size: 16px;
+}
+.btn{
+    margin:10px 30%;
+    padding:5px 15px;
+    border:outset;
+    background-color:#ff471a;
+    border-color:#ff471a;
+    border-radius: 10px;
+}
+.btn:hover{
+    cursor:pointer;
+    box-shadow:1px 1px #cc2900;
+    -moz-transition:0.6s;
+    -webkit-transition:0.6s;
+    transition:0.6s;
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <title>
+                Sign Up!
+        </title>
+        <link href="https://fonts.googleapis.com/css?family=Hepta+Slab&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="css/stylesignup.css">
+    </head>
+    <body>
+        <style>
+            input[type=text]{
+                font-size:16px;
+                border:groove;
+                border-radius:8px;
+                -webkit-transition: 0.6s;
+                -moz-transition: 0.6s;
+                transition:0.6s;            
+            }
+
+            input[type=text]:focus{
+                border:2px solid black;
+                
+            }
+
+            input[type=email]{
+                font-size:16px;
+                border:groove;
+                border-radius:8px;
+                -webkit-transition: 0.6s;
+                -moz-transition: 0.6s;
+                transition:0.6s;
+            }
+            input[type=email]:focus{
+                border:2px solid black;
+            }
+            input[type=password]{
+                font-size:16px;
+                border:groove;
+                border-radius:8px;
+                -webkit-transition: 0.6s;
+                -moz-transition: 0.6s;
+                transition:0.6s;
+            }
+            input[type=password]:focus{
+                border:2px solid black;
+            }
+
+            </style>
+        <div class="container">
+        <img src="img/admin.png" alt="Admin Logo" title="Admin Logo">
+            <h2 align="center"> Signing Up! </h2>
+            
+            <form class="form-control">
+                <input class="form-control" type="text" placeholder="First Name" autocomplete="off">
+                <input class="form-control" type="text" placeholder="Last Name" autocomplete="off">
+                <input class="form-control" type="email" placeholder="YourEmail@something.com" autocomplete="off">
+                <input class="form-control" type="password" placeholder="Your Password" autocomplete="off">
+                <input class="form-control" type="password" placeholder="Rewrite your password" autocomplete="off">
+                <input class="btn" type="submit" value="Sign Up!">   
+            </form>  
+
+        </div>
+
+
+    </body>
+</html>
